@@ -430,7 +430,7 @@
                 </div>
             </div>
         </div>
-        <br><br> <a href="./resources/2013KOLBSKLSI4.0GUIDE.pdf">Source: Kolb D. & Kolb A. (2013): The Kolb Learning
+        <br><br> <a href="resources/2013KOLBSKLSI4.0GUIDE.pdf">Source: Kolb D. & Kolb A. (2013): The Kolb Learning
             Style Inventory 4.0: <br> Guide to Theory, Psychometrics, Research & Applications.</a>
 
 <>
