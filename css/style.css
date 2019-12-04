@@ -1,0 +1,55 @@
+.carousel-item {
+    height: 55vh;
+}
+
+.card.d-block.w-100 {
+min-height: 60%;
+padding-top: 5px;
+    padding-left: 20px;
+}
+
+.custom-control.custom-radio.custom-control-inline {
+    display: -ms-inline-flexbox;
+    display: block;
+    margin-right: 1rem;
+  }
+
+.custom-select {
+    max-width: fit-content;
+}
+
+.form-control.job-search-bar {
+    min-width: 255px;
+    width: 50vw;
+    max-width: 350px;
+}
+
+.mark, mark {
+    padding:0;
+}
+
+body{
+    background: #fcfcfc;
+}
+
+.list-group-item-action.ttl,.btn-primary, .list-group-item.active,.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #4375aa;
+    border:0px;
+    color: #fff;
+    font-size:15px;
+    font-weight: 400;
+
+}
+
+.tab-pane{
+    text-align: justify;
+}
+.list-group-item{
+    font-size:13px;
+}
+
+@media (min-width: 1200px){}
+    .container {
+        max-width: 820px;
+    }
+}
