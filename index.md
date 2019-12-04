@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -145,6 +146,7 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- slide 2 range input -->
                         <div id="spectrumSlide" class="carousel-item">
                             <div class="card d-block w-100" style="width: 18rem;">
                                 <div class="card-body">
@@ -153,14 +155,14 @@
                                     <div id="slider-container" class="form-group">
                                         <label for="customRange2">Feeling</label> <label for="customRange2" style="float:right">Doing</label> <br>
                                         <input id="feelDoSlider" type="range" class="custom-range" min="0" max="6" id="customRange2">
-                                        
+                                        >
                                         <label for="customRange2">Watching</label> <label for="customRange2" style="float:right">Thinking</label> <br>
                                         <input id="watchThinkSlider" type="range" class="custom-range" min="0" max="6" id="customRange2">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- slide 2 radio buttons -->
+                        <!-- slide 3 radio buttons -->
                         <div id="radioSlide" class="carousel-item radio-group">
                             <div id="" class="card d-block w-100" style="width: 18rem;">
                                 <div class="card-body">
@@ -209,7 +211,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- slide 3 dropdown menu -->
+                        <!-- slide 4 dropdown menu -->
                         <div id="teacherSlide" class="carousel-item">
                             <div class="card d-block w-100" style="width: 18rem;">
                                 <div class="card-body">
@@ -236,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- slide 4 text input -->
+                        <!-- slide 5 text input -->
                         <div id="jobSlide" class="carousel-item">
                             <div class="card d-block w-100" style="width: 18rem;">
                                 <div class="card-body">
@@ -431,9 +433,9 @@
         <br><br> <a href="./resources/2013KOLBSKLSI4.0GUIDE.pdf">Source: Kolb D. & Kolb A. (2013): The Kolb Learning
             Style Inventory 4.0: <br> Guide to Theory, Psychometrics, Research & Applications.</a>
 
-
+<>
     </div>
-
+<>
     <div class="container" style="height: 10vh;"></div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -447,13 +449,11 @@
     <script src="./js/libs/awesomplete.js"></script>
     <script src="./js/libsCustomization.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1/dist/chart.xkcd.min.js" crossorigin="anonymous"></script>
-    <script>const myChart = new chartXkcd.Line(svg, { ...});</script>
+    <script>const myChart = new chartXkcd.Line(svg, {...});</script>
     <script src="./js/data.js"></script>
     <script src="./js/functions.js"></script>
     <script src="./js/sandbox.js"></script>
     <script src="./js/init.js"></script>
-    
-
 </body>
 
 </html>
